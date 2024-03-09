@@ -3,6 +3,7 @@ body {
   color: #212121;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 .menu-link:hover {
   color: #2196f3;
@@ -11,6 +12,7 @@ body {
   text-decoration: none;
   color: #212121;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .servises {
   background: #2f303a;
@@ -19,6 +21,7 @@ body {
   color: #fff;
   font-weight: 900;
   font-size: 44px;
+  letter-spacing: 0.06em;
 }
 
 .button {
@@ -26,7 +29,7 @@ body {
   border-radius: 4px;
   width: 216px;
   height: 50px;
-
+  letter-spacing: 0.06em;
   font-size: 16px;
   color: #fff;
 }
