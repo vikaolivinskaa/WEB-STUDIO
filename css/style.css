@@ -1,7 +1,7 @@
 body {
   font-size: 14px;
   color: #212121;
-  font-weight: 500;
+  font-weight: 700;
   font-family: "Roboto", sans-serif;
 }
 .menu-link:hover {
@@ -10,6 +10,7 @@ body {
 .menu-link {
   text-decoration: none;
   color: #212121;
+  font-weight: 500;
 }
 .servises {
   background: #2f303a;
@@ -25,7 +26,7 @@ body {
   border-radius: 4px;
   width: 216px;
   height: 50px;
-  font-weight: 700;
+
   font-size: 16px;
   color: #fff;
 }
@@ -39,23 +40,20 @@ body {
   background: #2196f3;
   color: #fff;
 }
-.advatage-title {
-  font-weight: 700;
-}
+
 .advatage-text {
   font-weight: 400;
   color: #757575;
 }
 .work-title {
-  font-weight: 700;
   font-size: 36px;
 }
 .team-title {
-  font-weight: 700;
   font-size: 36px;
 }
 .team-name {
   font-size: 16px;
+  font-weight: 500;
 }
 
 .team-role {
@@ -63,9 +61,7 @@ body {
   color: #757575;
 }
 .gallery-title {
-  font-weight: 700;
   font-size: 18px;
-  color: #212121;
 }
 
 .footer {
