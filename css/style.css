@@ -1,0 +1,85 @@
+body {
+  font-size: 14px;
+  color: #212121;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.menu-link:hover {
+  color: #2196f3;
+}
+.menu-link {
+  text-decoration: none;
+  color: #212121;
+}
+.servises {
+  background: #2f303a;
+}
+.servises-title {
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.button {
+  background: #2196f3;
+  border-radius: 4px;
+  width: 216px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+.button-link {
+  border-radius: 4px;
+  width: 125px;
+  height: 38px;
+  background: #f5f4fa;
+}
+.button-link:hover {
+  background: #2196f3;
+  color: #fff;
+}
+.advatage-title {
+  font-weight: 700;
+}
+.advatage-text {
+  font-weight: 400;
+  color: #757575;
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+}
+.team-name {
+  font-size: 16px;
+}
+
+.team-role {
+  font-weight: 400;
+  color: #757575;
+}
+.gallery-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+}
+
+.footer {
+  background: #2f303a;
+}
+.address {
+  font-weight: 400;
+  color: #fff;
+}
+.footer-link {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
+.gallery-category {
+  color: #757575;
+  font-weight: 400;
+}
