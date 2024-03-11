@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
@@ -12,14 +20,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="/css/style.css" />
+
   <body>
     <header class="header">
       <a class="logo" href="#">
@@ -30,32 +31,31 @@
         />
       </a>
       <nav class="header-menu">
-        <ul class="header-list">
+        <ul class="menu-link">
           <li class="menu-item"><a class="menu-link" href="#">Студія</a></li>
           <li class="menu-item"><a class="menu-link" href="#">Портфоліо</a></li>
           <li class="menu-item"><a class="menu-link" href="#">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="menu-list">
-        <li class="menu-item">
-          <a class="menu-link" href="mailto:info@devstudio.com"
+      <ul class="header-contacts">
+        <li class="contacts-item">
+          <a class="contacts-link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
-        <li class="menu-item">
-          <a class="menu-link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-        <li class="menu-item">
-          <a class="menu-link" href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="contacts-item">
+          <a class="contacts-link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
 
     <!-- Секція 1 -->
     <main class="main">
-      <section class="servises">
-        <h1 class="servises-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="button">Замовити послугу</button>
+      <section class="hero">
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="hero-button">Замовити послугу</button>
       </section>
 
       <!-- Секція 2 -->
@@ -94,7 +94,7 @@
       <!-- Секція 3 -->
       <section class="work">
         <h2 class="work-title">Чим ми займаємося</h2>
-        <div>
+        <div class="work-photos">
           <img class="work-photo" src="img/desktop.jpg" alt="Десктопний комп" />
 
           <img class="work-photo" src="img/mobile.jpg" alt="Мобільні Додатки" />
@@ -159,7 +159,7 @@
         <img class="logo-photo" src="./src/img/web_studio.svg" alt="Логотип" />
       </a>
       <ul class="footer-list">
-        <li>
+        <li footer-item>
           <address class="address">:м. Київ, пр-т Лесі Українки, 26"></address>
         </li>
         <li class="footer-item">
